@@ -1,0 +1,16 @@
+JSON
+
+{
+  "name": "electron-sample-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-builder --mac --win",  // Adjust build commands for your target platforms
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-builder": "^23.0.0"  // For building desktop installers/executables
+  }
+}
+
